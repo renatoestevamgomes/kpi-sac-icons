@@ -1,0 +1,24 @@
+{
+  "name": "Looker Reputation Toolkit",
+  "organization": "Renato Estevam Gomes",
+  "description": "Pacote de visualizações para exibir indicadores de reputação com ícones personalizados no Looker Studio.",
+  "logoUrl": "https://renatoestevamgomes.github.io/kpi-sac-icons/icons/bom.png",
+  "organizationUrl": "https://github.com/renatoestevamgomes",
+  "supportUrl": "https://github.com/renatoestevamgomes/kpi-sac-icons",
+  "packageUrl": "https://github.com/renatoestevamgomes/kpi-sac-icons",
+  "devMode": true,
+  "components": [
+    {
+      "id": "reputation-table",
+      "name": "Reputation Table",
+      "description": "Tabela personalizada para exibir marca, nota e ícone de reputação com tamanho controlado.",
+      "iconUrl": "https://renatoestevamgomes.github.io/kpi-sac-icons/icons/bom.png",
+      "infoUrl": "https://github.com/renatoestevamgomes/kpi-sac-icons",
+      "resource": {
+        "js": "gs://NOME_DO_BUCKET/community-visualization/viz.js",
+        "config": "gs://NOME_DO_BUCKET/community-visualization/config.json",
+        "css": "gs://NOME_DO_BUCKET/community-visualization/style.css"
+      }
+    }
+  ]
+}
